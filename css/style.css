@@ -263,7 +263,13 @@ ul{
     transition: all 0.2s ease;
 
 }
+.nav li a {
+    color: black; 
+}
 
+.nav li a.active {
+    color: var(--skin-color); 
+}
 .aside .nav li a i{
     margin-right: 15px;
 }
